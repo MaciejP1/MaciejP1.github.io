@@ -5,6 +5,7 @@ body {
 	background-color: #F9F9F9;
 	font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 	color: #333;
+
 }
 
 a {
@@ -93,8 +94,10 @@ li a:hover {
 	font-size: 2em;
 }
 
+
+
 .portfolio {
-	margin-top: 10em;
+
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -106,11 +109,15 @@ li a:hover {
 	margin: auto;
 	width: 25em;
 	height: auto;
-	margin-top: 8em;
+	margin-top: 5em;
 }
 
 #contact {
 	margin-top: 10em;
+}
+
+.contact {
+	
 	margin-bottom: 5em;
 	display: flex;
 	flex-direction: row;
@@ -141,7 +148,20 @@ li a:hover {
 #fafacebook {
 	font-size: 10em;
 }
+#portfolio {
+	margin-top: 10em;
+	text-align: center;
+}
+#contact {
+	margin-top: 10em;
+	text-align: center;
+}
 
+
+.anchor {
+	padding-top: 10em;
+	margin-top: -10em;
+}
 
 @media (max-width: 1000px) {
 	.portfolio {
@@ -152,6 +172,7 @@ li a:hover {
 		align-content: center;
 	}
 }
+
 
 @media (max-width: 800px) {
 
@@ -176,7 +197,7 @@ li a:hover {
 
 @media (max-width: 600px) {
 
-	#contact {
+	.contact {
 		flex-direction: column;
 		justify-content: center;
 		/*margin-left:6em;*/
